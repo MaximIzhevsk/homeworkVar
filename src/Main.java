@@ -25,16 +25,21 @@ public class Main {
 //        friend = friend / 7;
 //        System.out.println(friend);
 
-        var frog = 3.5;
-        System.out.println(frog);
-        frog = frog * 10;
-        System.out.println(frog);
-        frog = frog / 3.5;
-        System.out.println(frog);
-        frog = frog + 4;
-        System.out.println(frog);
+//        var frog = 3.5;
+//        System.out.println(frog);
+//        frog = frog * 10;
+//        System.out.println(frog);
+//        frog = frog / 3.5;
+//        System.out.println(frog);
+//        frog = frog + 4;
+//        System.out.println(frog);
 
-
+        var firstFighter = 78.2;
+        var secondFighter = 82.7;
+        var totalMass = firstFighter + secondFighter;
+        System.out.println(totalMass);
+        var weightDifference = secondFighter - firstFighter;
+        System.out.println(weightDifference);
 
     }
 }
