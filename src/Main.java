@@ -36,10 +36,14 @@ public class Main {
 
         var firstFighter = 78.2;
         var secondFighter = 82.7;
-        var totalMass = firstFighter + secondFighter;
-        System.out.println(totalMass);
-        var weightDifference = secondFighter - firstFighter;
-        System.out.println(weightDifference);
+//        var totalMass = firstFighter + secondFighter;
+//        System.out.println(totalMass);
+//        var weightDifference = secondFighter - firstFighter;
+//        System.out.println(weightDifference);
+
+        var remainderFromDivision = secondFighter % firstFighter;
+        System.out.println(remainderFromDivision);
+
 
     }
 }
