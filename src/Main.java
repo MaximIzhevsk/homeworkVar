@@ -34,15 +34,27 @@ public class Main {
 //        frog = frog + 4;
 //        System.out.println(frog);
 
-        var firstFighter = 78.2;
-        var secondFighter = 82.7;
+//        var firstFighter = 78.2;
+//        var secondFighter = 82.7;
 //        var totalMass = firstFighter + secondFighter;
 //        System.out.println(totalMass);
 //        var weightDifference = secondFighter - firstFighter;
 //        System.out.println(weightDifference);
 
-        var remainderFromDivision = secondFighter % firstFighter;
-        System.out.println(remainderFromDivision);
+//        var remainderFromDivision = secondFighter % firstFighter;
+//        System.out.println(remainderFromDivision);
+
+        var totalHours = 640;
+        var hoursPerPerson = 8;
+        var totalPeople = totalHours / hoursPerPerson;
+        System.out.println("Всего работников в компании - " + totalPeople + " человек");
+
+        totalPeople = totalPeople + 94;
+        totalHours = hoursPerPerson * totalPeople;
+        System.out.println("Если в компании работает " + totalPeople +
+                " человек, то всего " + totalHours +
+                " часов работы может быть поделено между сотрудниками");
+
 
 
     }
